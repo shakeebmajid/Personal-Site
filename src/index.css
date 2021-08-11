@@ -61,6 +61,27 @@ nav {
   padding-left: 30px;
 }
 
+a {
+  color: rgb(70, 69, 69);
+}
+
 .header-item:hover {
   color: black;
+}
+
+#contact-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.contact-list-item {
+  padding-top: 7px;
+}
+
+#blurb {
+  padding-top: 15px;
+}
+
+.contact-icon {
+  margin-right: 5px;
 }
