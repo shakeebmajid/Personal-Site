@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import profile from "../../Profile_Photo.png";
 import Contact from "./Contact";
 
