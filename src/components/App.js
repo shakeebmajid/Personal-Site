@@ -9,7 +9,7 @@ import OnePost from "./OnePost";
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />

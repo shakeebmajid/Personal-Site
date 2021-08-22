@@ -6,20 +6,27 @@ const Header = () => {
   const activeStyle = { color: "black" };
 
   return (
-    <nav id="header">
-      <img id="logo" src={logo} alt="Logo" />
+    <nav className="shadow-sm box-content mb-4 p-4 h-12 flex space-x-2 items-center">
+      {/* <ul className=""> */}
+      <img
+        id="logo"
+        className="box-content h-full w-auto pl-4"
+        src={logo}
+        alt="Logo"
+      />
       <NavLink to="/" className="header-item" activeStyle={activeStyle} exact>
         Home
       </NavLink>{" "}
-      <NavLink to="/about" className="header-item" activeStyle={activeStyle}>
+      <NavLink to="/about" className="header-item">
         About
       </NavLink>
-      <NavLink to="/contact" className="header-item" activeStyle={activeStyle}>
+      <NavLink to="/contact" className="header-item">
         Contact
       </NavLink>
-      <NavLink to="/blog" className="header-item" activeStyle={activeStyle}>
+      <NavLink to="/blog" className="header-item">
         Blog
       </NavLink>
+      {/* </ul> */}
     </nav>
   );
 };
