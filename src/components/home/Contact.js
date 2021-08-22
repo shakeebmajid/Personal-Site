@@ -2,10 +2,10 @@ import React from "react";
 
 const Contact = () => (
   <div className="center">
-    <h2>Contact</h2>
+    <h2 className="h2">Contact</h2>
 
     <ul id="contact-list">
-      <li className="contact-list-item">
+      <li className="">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"
@@ -20,7 +20,7 @@ const Contact = () => (
           GitHub
         </a>
       </li>
-      <li className="contact-list-item">
+      <li className="">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"
@@ -35,7 +35,7 @@ const Contact = () => (
           shakeeb.majid@student.ru.nl
         </a>
       </li>
-      <li className="contact-list-item">
+      <li className="">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"

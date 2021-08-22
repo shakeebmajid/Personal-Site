@@ -14,16 +14,33 @@ const Header = () => {
         src={logo}
         alt="Logo"
       />
-      <NavLink to="/" className="header-item" activeStyle={activeStyle} exact>
+      <NavLink
+        to="/"
+        className="header-item"
+        activeClassName="active-header-item"
+        exact
+      >
         Home
       </NavLink>{" "}
-      <NavLink to="/about" className="header-item">
+      <NavLink
+        to="/about"
+        className="header-item"
+        activeClassName="active-header-item"
+      >
         About
       </NavLink>
-      <NavLink to="/contact" className="header-item">
+      <NavLink
+        to="/contact"
+        className="header-item"
+        activeClassName="active-header-item"
+      >
         Contact
       </NavLink>
-      <NavLink to="/blog" className="header-item">
+      <NavLink
+        to="/blog"
+        className="header-item"
+        activeClassName="active-header-item"
+      >
         Blog
       </NavLink>
       {/* </ul> */}
